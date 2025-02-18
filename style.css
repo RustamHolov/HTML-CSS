@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  min-height: 100svh;
+}
+img {
+  max-width: 50%;
+  display: block;
+}
+article {
+  margin: 20px;
+  margin-inline: auto;
+  align-items: center;
+  border: solid 2px black;
+  padding: 20px;
+  border-radius: 3%;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  margin-bottom: 20px;
+}
+nav {
+  background-color: saddlebrown;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a {
+  color: beige;
+  font-size: 30px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover,
+a:focus {
+  color: aquamarine;
+}
