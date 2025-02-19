@@ -10,20 +10,19 @@ section {
   display: flex;
 }
 article {
-  max-width: 70svh;
+  max-width: 50%;
   text-align: center;
-  margin: 20px;
-  margin-inline: auto;
+  margin: 3%;
   border: solid 2px black;
-  padding: 20px;
-  border-radius: 3%;
+  padding: 5%;
+  border-radius: 2%;
 }
 h1 {
   margin-top: 20px;
   text-align: center;
 }
 img {
-  max-width: 40svh;
+  max-width: 90%;
   border-radius: 3%;
 }
 h2 {
